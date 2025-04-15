@@ -1,0 +1,607 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* -------------------- GRID CONTAINER PARA INDEX -------------------- */
+#grid-container-index {
+    display: grid;
+    grid-template-areas: "titulo banner";
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 110px 100px;
+    padding: 20px;
+    align-items: center;
+}
+
+/* Titulo y contenido de inicio */
+.titulo-inicio {
+    grid-area: titulo;
+    width: 100%;
+    text-align: center;
+}
+
+/* Banner */
+.banner-inicio {
+    grid-area: banner;
+    justify-content: center;
+
+}
+
+.banner-inicio img {
+    width: 100%;
+    height: auto;
+}
+
+/* Eliminar márgenes en listas */
+dl,
+ol,
+ul {
+    margin-bottom: 0 !important;
+}
+
+/* -------------------- HEADER 
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 70px;
+    padding: 15px 30px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+
+.nav-links li a {
+    font-size: 14px;
+    color: white;
+}
+
+.nav-links li a:hover {
+    color: rgb(244, 138, 0);
+    font-weight: bold;
+}
+
+.logo img {
+    width: 100px;
+} -------------------- */
+
+/* AJUSTES BARRA DE NAVEGACIÓN  */
+.logo img {
+    width: 100px;
+}
+
+.container-fluid {
+    margin-left: 30px !important;
+}
+
+.navbar {
+    background-color: black !important;
+}
+
+#navbarNav {
+    justify-content: space-around;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #03A688 !important;
+    font-weight: bold !important;
+}
+
+.navbar-toggler-icon {
+    width: 2em !important;
+}
+
+/* Fondo */
+.background-inicio {
+    background-color: rgb(0, 0, 0);
+}
+
+/* -------------------- TÍTULO INICIO -------------------- */
+.titulo-inicio h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+
+.titulo-inicio p {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+
+/* Botón "Conócenos" */
+.titulo-inicio button {
+    background-color: #F28963;
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo-inicio button:hover {
+    background-color: #ff6830;
+}
+
+.titulo-inicio a {
+    text-decoration: none;
+}
+
+/* -------------------- FOOTER GRID -------------------- */
+
+footer {
+    height: 10%;
+    background-color: rgb(228, 228, 228) !important;
+}
+
+.container-footer {
+    grid-area: container-footer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.btn {
+    background-color: #03A688 !important;
+    color: white !important;
+}
+
+.container-footer img {
+    width: 100px;
+}
+
+footer p span {
+    display: block;
+    text-align: center;
+}
+
+/* 2. página nosotros */
+
+#grid-container-nosotros {
+    display: grid;
+    grid-template-areas:
+        "nosotros-1 juanyana"
+        "nosotros-2 nosotros-2"
+        "nosotros-3 nosotros-3"
+        "frases frases"
+        "carousel carousel";
+}
+
+.container-nosotros-1 {
+    grid-area: nosotros-1;
+    text-align: left;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+}
+
+.container-nosotros-1 h1 {
+    font-weight: bold;
+    color: #03A688;
+    font-size: 60px;
+    width: 20%;
+}
+
+.container-nosotros-1 p {
+    margin-top: 10px;
+    margin-bottom: 1rem;
+    width: 80%;
+}
+
+.juanyana {
+    grid-area: juanyana;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 80px;
+}
+
+.juanyana img {
+    width: 100%;
+}
+
+.container-nosotros-2 {
+    grid-area: nosotros-2;
+    text-align: center;
+}
+
+.container-nosotros-2 video {
+    border-radius: 20px;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.container-nosotros-3 {
+    grid-area: nosotros-3;
+    text-align: center;
+    margin: 50px 10% 0px 10%;
+}
+
+.container-nosotros-3 h3 {
+    color: #949494;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+/** Frases +100 **/
+
+.frases-100 {
+    grid-area: frases;
+    color: #03A688;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.frases-100 div {
+    text-align: center;
+}
+
+.frases-100 div h2 {
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.frases-100 div h4 {
+    font-size: 2vw;
+}
+
+.carousel-container {
+    grid-area: carousel;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    padding: 0 5%;
+}
+
+/* 3. página dulces */
+
+#grid-container-dulces {
+    display: grid;
+    grid-template-areas:
+        "dulces-1 dulcesimg"
+        "dulces-2 dulces-2";
+}
+
+.dulces-img {
+    grid-area: dulcesimg;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+.dulces-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-dulces-1 {
+    grid-area: dulces-1;
+    text-align: left;
+    margin: 40px 0px 40px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-dulces-1 h1 {
+    font-weight: bold;
+    color: #03A688;
+    font-size: 60px;
+    width: 20%;
+}
+
+.container-dulces-1 p {
+    margin-top: 10px;
+    margin-bottom: 1rem;
+    width: 80%;
+}
+
+.dulces-2 {
+    grid-area: dulces-2;
+    text-align: center;
+    background-color: rgb(224, 224, 224);
+    padding: 50px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.dulces-2 img {
+    width: 5%;
+    margin-bottom: 20px;
+}
+
+
+/* 5. página contacto */
+
+#contacto {
+    display: grid;
+    grid-template-areas: 
+    "formulario c-img"
+    "suscribe suscribe";
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
+}
+
+.formulario-contacto {
+    grid-area: formulario;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 80%;
+}
+
+.formulario-contacto form {
+    max-width: 100%;
+}
+
+.formulario-contacto h1 {
+    font-weight: bold;
+    color: #03A688;
+    font-size: 40px;
+}
+
+.contacto-img {
+    grid-area: c-img;
+    margin-top: 40px;
+    width: 80%;
+}
+
+.contacto-img img {
+    max-width: 100%;
+}
+
+.suscribete {
+    grid-area: suscribe;
+    margin-top: 60px;
+    width: 100%;
+    background-color: #FFE17E;
+    padding: 50px;
+    justify-items: center;
+}
+
+.suscribete form {
+    width: 40%;
+}
+
+.btn {
+    background-color: #F28963 !important;
+}
+
+.btn:hover {
+    background-color: #ff6830 !important;
+}
+
+.btn-primary {
+    --bs-btn-border-color: none !important;
+}
+
+
+/* ----------- Media Query 768px ----------- */
+
+@media only screen and (max-width: 768px) {
+
+    /* PAGINA 1 - INICIO  */
+
+    #grid-container-index {
+        display: grid;
+        grid-template-areas: "titulo" "banner";
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        margin: 110px 100px;
+    }
+
+    .titulo-inicio {
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    .titulo-inicio h1 {
+        font-size: 36px;
+    }
+
+    .titulo-inicio p {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    #grid-container-index {
+        grid-template-columns: 1fr;
+    }
+
+    .banner-inicio {
+        margin-top: 20px;
+    }
+
+
+    /* PAGINA 2 - NOSOTROS  */
+
+    #grid-container-nosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .juanyana {
+        margin-right: 0px;
+    }
+
+    .juanyana img {
+        width: 80%;
+    }
+
+    .container-nosotros-1 {
+        flex-direction: column;
+    }
+
+    .container-nosotros-1 h1 {
+        width: 80%;
+        margin-right: 0;
+    }
+
+    .container-nosotros-1 p {
+        width: 80%;
+    }
+
+    .frases-100 {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .frases-100 div h2 {
+        font-size: 6vw;
+        font-weight: bold;
+    }
+
+    .frases-100 div h4 {
+        font-size: 6vw;
+    }
+
+    /* PAGINA 3 - RECETAS DULCES  */
+
+    #grid-container-dulces {
+        display: grid;
+        grid-template-areas:
+            "dulces-1"
+            "dulcesimg"
+            "dulces-2";
+        justify-items: center;
+    }
+
+    .dulces-img {
+        margin-right: 0px;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .container-dulces-1 {
+        margin-bottom: 20px;
+    }
+
+
+    /* FOOTER  */
+
+    .container-footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .container-footer img {
+        width: 100px;
+    }
+
+    footer p span {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    /* PAGINA 5 - CONTACTO  */
+
+#contacto {
+    display: grid;
+    grid-template-areas: 
+    "formulario"
+    "c-img"
+    "suscribe";
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: 1fr;
+}
+
+.suscribete form {
+    width: 90%;
+}
+
+}
+
+
+
+
+/* ----------- Media Query 480px ----------- */
+
+@media (max-width: 480px) {
+
+    #grid-container-index {
+        margin: 55px 50px;
+        margin-top: 0px !important;
+    }
+
+    .titulo-inicio h1 {
+        font-size: 28px;
+    }
+
+    .titulo-inicio p {
+        font-size: 14px;
+    }
+
+    footer p span {
+        font-size: 0.8rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+
+    .container-footer img {
+        display: none;
+    }
+
+
+}
