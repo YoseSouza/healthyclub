@@ -362,6 +362,7 @@ footer p span {
 
 .contacto-img img {
     max-width: 100%;
+    border-radius: 20px;
 }
 
 .suscribete {
