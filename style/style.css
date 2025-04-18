@@ -54,43 +54,6 @@ ul {
     margin-bottom: 0 !important;
 }
 
-/* -------------------- HEADER 
-header {
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    height: 70px;
-    padding: 15px 30px;
-}
-
-header a {
-    text-decoration: none;
-}
-
-.nav-links {
-    display: flex;
-    gap: 40px;
-    text-align: center;
-}
-
-.nav-links li a {
-    font-size: 14px;
-    color: white;
-}
-
-.nav-links li a:hover {
-    color: rgb(244, 138, 0);
-    font-weight: bold;
-}
-
-.logo img {
-    width: 100px;
-} -------------------- */
-
 /* AJUSTES BARRA DE NAVEGACIÓN  */
 .logo img {
     width: 100px;
