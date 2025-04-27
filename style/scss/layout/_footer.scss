@@ -1,0 +1,54 @@
+// FOOTER
+
+footer {
+    height: 10%;
+    background-color: rgb(228, 228, 228) !important;
+  
+    p {
+      span {
+        display: block;
+        text-align: center;
+      }
+    }
+  
+    .container-footer {
+      grid-area: container-footer;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 20px 0;
+  
+      img {
+        width: 100px;
+      }
+    }
+  }
+  
+  .btn {
+    background-color: #03688 !important;
+    color: white !important;
+  }
+  
+  // MEDIA QUERY 480px
+  
+  @media (max-width: 480px) {
+    footer {
+      p {
+        font-size: 0.8rem;
+  
+        span {
+          font-size: 0.8rem;
+        }
+      }
+  
+      .container-footer {
+        flex-direction: column;
+
+        img {
+          display: none;
+        }
+      }
+    }
+
+  }
+  

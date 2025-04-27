@@ -1,0 +1,89 @@
+#grid-container-dulces {
+  display: grid;
+  grid-template-areas:
+    "dulces-1 dulcesimg"
+    "dulces-2 dulces-2";
+}
+
+.dulces-img {
+  grid-area: dulcesimg;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 80px;
+  margin-top: 20px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.container-dulces-1 {
+  grid-area: dulces-1;
+  text-align: left;
+  margin: 40px 0 40px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  p {
+    margin: 10px 0 1rem;
+    width: 80%;
+  }
+}
+
+.dulces-2 {
+  grid-area: dulces-2;
+  text-align: center;
+  background-color: rgb(224, 224, 224);
+  padding: 50px;
+  margin: 20px 0 80px;
+
+  img {
+    width: 5%;
+    margin-bottom: 20px;
+  }
+}
+
+// MEDIA QUERY 768
+
+@media only screen and (max-width: 768px) {
+
+  #grid-container-dulces {
+    display: grid;
+    grid-template-areas:
+      "dulces-1"
+      "dulcesimg"
+      "dulces-2";
+    justify-items: center;
+  }
+
+  .dulces-img {
+    margin-right: 0px;
+    width: 80%;
+    margin-bottom: 30px;
+  }
+
+  .container-dulces-1 {
+    margin-bottom: 20px;
+  }
+
+  .dulces-2 {
+    img {
+      width: 10%;
+    }
+  }
+}
+
+// 480
+
+@media only screen and (max-width: 480px) {
+  .dulces-2 {
+    img {
+      width: 20%;
+    }
+  }
+
+
+}

@@ -1,0 +1,33 @@
+.logo {
+    img {
+      width: 100px;
+    }
+  }
+  
+  .container-fluid {
+    margin-left: 30px !important;
+  }
+  
+  .navbar {
+    background-color: black !important;
+  
+    #navbarNav {
+      justify-content: space-around;
+    }
+  
+    .navbar-nav {
+      .nav-link {
+        color: white !important;
+  
+        &:hover {
+          color: #03A688 !important;
+          font-weight: bold !important;
+        }
+      }
+    }
+  
+    .navbar-toggler-icon {
+      width: 2em !important;
+    }
+  }
+  

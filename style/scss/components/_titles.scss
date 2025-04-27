@@ -1,0 +1,16 @@
+%titulo-comun {
+    font-weight: bold;
+    color: #03A688;
+    font-size: 60px;
+}
+
+.container-nosotros-1 h1 {
+    width: 20%;
+    @extend %titulo-comun;
+}
+
+.container-dulces-1 h1 {
+    width: 20%;
+    @extend %titulo-comun;
+}
+

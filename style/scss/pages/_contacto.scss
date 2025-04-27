@@ -1,0 +1,42 @@
+#contacto {
+    display: grid;
+    grid-template-areas:
+      "formulario c-img"
+      "suscribe suscribe";
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .contacto-img {
+    grid-area: c-img;
+    margin-top: 40px;
+    width: 80%;
+  
+    img {
+      max-width: 100%;
+      border-radius: 20px;
+    }
+  }
+  
+
+  // MEDIA QUERY 768
+
+    /* PAGINA 5 - CONTACTO  */
+
+    @media only screen and (max-width: 768px) {
+
+    #contacto {
+        display: grid;
+        grid-template-areas:
+            "formulario"
+            "c-img"
+            "suscribe";
+        justify-items: center;
+        align-items: center;
+        justify-content: space-around;
+        grid-template-columns: 1fr;
+    }
+
+}

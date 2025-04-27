@@ -1,0 +1,22 @@
+// BASE
+@use "./base/reset";
+@use "./base/typography";
+
+
+// COMPONENTS
+@use "./components/carousel";
+@use "./components/titles";
+
+// LAYOUT
+@use "./layout/footer";
+@use "./layout/forms";
+@use "./layout/navigation";
+
+
+// PAGES
+@use "./pages/index";
+@use "./pages/nosotros";
+@use "./pages/dulces";
+@use "./pages/contacto";
+
+

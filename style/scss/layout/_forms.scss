@@ -1,0 +1,60 @@
+// Formulario contacto 
+
+.formulario-contacto {
+    grid-area: formulario;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 80%;
+
+    form {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-weight: bold;
+        color: #03A688;
+        font-size: 40px;
+    }
+}
+
+
+// Formulario suscribete
+
+.suscribete {
+    grid-area: suscribe;
+    margin-top: 60px;
+    width: 100%;
+    background-color: #FFE17E;
+    padding: 50px;
+    justify-items: center;
+
+    form {
+        width: 40%;
+    }
+}
+
+// BOTÓN SUBIR
+
+.btn {
+    background-color: #F28963 !important;
+
+    &:hover {
+        background-color: #ff6830 !important;
+    }
+}
+
+.btn-primary {
+    --bs-btn-border-color: none !important;
+}
+
+
+// MEDIA QUERY 768 px
+
+@media only screen and (max-width: 768px) {
+    .suscribete {
+      form {
+        width: 90%;
+      }
+    }
+  }
+  

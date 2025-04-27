@@ -1,0 +1,138 @@
+// GRID INDEX
+
+#grid-container-index {
+  display: grid;
+  grid-template-areas: "titulo banner";
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin: 110px 100px;
+  padding: 20px;
+  align-items: center;
+}
+
+// TITULO
+
+.titulo-inicio {
+  grid-area: titulo;
+  width: 100%;
+  text-align: center;
+}
+
+// BANNER
+
+.banner-inicio {
+  grid-area: banner;
+  justify-content: center;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+
+// FONDO NEGRO
+
+.background-inicio {
+  background-color: rgb(0, 0, 0);
+}
+
+// TÍTULO
+
+.titulo-inicio {
+  h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+  }
+
+  p {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+  }
+}
+
+// BOTON CONOCENOS
+
+.titulo-inicio {
+  button {
+    background-color: #F28963;
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &:hover {
+      background-color: #ff6830;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+// MEDIA QUERY 768
+
+@media only screen and (max-width: 768px) {
+
+  #grid-container-index {
+    display: grid;
+    grid-template-areas: "titulo" "banner";
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 110px 100px;
+  }
+
+  .titulo-inicio {
+    margin-top: 100px;
+    width: 100%;
+  }
+
+  .titulo-inicio h1 {
+    font-size: 36px;
+  }
+
+  .titulo-inicio p {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+
+  #grid-container-index {
+    grid-template-columns: 1fr;
+  }
+
+  .banner-inicio {
+    margin-top: 20px;
+  }
+}
+
+// 480
+
+@media (max-width: 480px) {
+
+  #grid-container-index {
+      margin: 55px 50px;
+      margin-top: 0px !important;
+  }
+
+  .titulo-inicio h1 {
+      font-size: 28px;
+  }
+
+  .titulo-inicio p {
+      font-size: 14px;
+  }
+
+}
