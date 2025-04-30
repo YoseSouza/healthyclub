@@ -6,11 +6,12 @@
   
   .container-fluid {
     margin-left: 30px !important;
+    text-align: center;
   }
   
   .navbar {
     background-color: black !important;
-  
+      
     #navbarNav {
       justify-content: space-around;
     }
@@ -28,6 +29,10 @@
   
     .navbar-toggler-icon {
       width: 2em !important;
+    }
+
+    .navbar-toggler {
+      border-color: black;
     }
   }
   

@@ -1,4 +1,9 @@
-.card card-body {
-    background-color: aquamarine;
-    
+.card-body ul {
+    line-height: 30px;
+
+    h5 {
+        font-weight: bold;
+        margin: 10px 0px 10px 0px;
+        font-size: 18px;
+    }
 }
