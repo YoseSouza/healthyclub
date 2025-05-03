@@ -55,6 +55,10 @@ body {
   font-size: 18px;
 }
 
+.card ul {
+  padding: 0px 20px 10px 20px !important;
+}
+
 @media only screen and (max-width: 576px) {
   .g-5 {
     --bs-gutter-x: 0rem !important;
