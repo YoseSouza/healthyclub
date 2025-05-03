@@ -55,7 +55,7 @@ body {
   font-size: 18px;
 }
 
-@media only screen and (max-width: 576gipx) {
+@media only screen and (max-width: 576px) {
   .g-5 {
     --bs-gutter-x: 0rem !important;
   }
