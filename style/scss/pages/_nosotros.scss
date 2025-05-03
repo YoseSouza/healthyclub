@@ -1,6 +1,3 @@
-// TITULOS
-
-
 #grid-container-nosotros {
   display: grid;
   grid-template-areas:
@@ -71,6 +68,11 @@
 
   div {
     text-align: center;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.04);
+    }
 
     h2 {
       font-size: 3vw;
@@ -81,6 +83,7 @@
       font-size: 2vw;
     }
   }
+
 }
 
 // MEDIA QUERY 768

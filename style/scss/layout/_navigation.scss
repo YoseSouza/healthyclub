@@ -19,10 +19,11 @@
     .navbar-nav {
       .nav-link {
         color: white !important;
+        font-weight: 600 !important;
+        transition: color 0.5s;
   
         &:hover {
           color: #03A688 !important;
-          font-weight: bold !important;
         }
       }
     }

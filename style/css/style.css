@@ -158,10 +158,11 @@ footer .container-footer img {
 }
 .navbar .navbar-nav .nav-link {
   color: white !important;
+  font-weight: 600 !important;
+  transition: color 0.5s;
 }
 .navbar .navbar-nav .nav-link:hover {
   color: #03A688 !important;
-  font-weight: bold !important;
 }
 .navbar .navbar-toggler-icon {
   width: 2em !important;
@@ -225,9 +226,12 @@ footer .container-footer img {
   width: 150px;
   margin-left: auto;
   margin-right: auto;
+  transition: all 0.5s;
 }
 .titulo-inicio button:hover {
   background-color: #ff6830;
+  transition: background-color 0.6s;
+  transform: scale(1.02);
 }
 .titulo-inicio a {
   text-decoration: none;
@@ -331,6 +335,10 @@ footer .container-footer img {
 }
 .frases-100 div {
   text-align: center;
+  transition: 0.3s;
+}
+.frases-100 div:hover {
+  transform: scale(1.04);
 }
 .frases-100 div h2 {
   font-size: 3vw;
