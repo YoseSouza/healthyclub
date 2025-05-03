@@ -30,7 +30,7 @@ body {
 .container-dulces-1 h1, .container-nosotros-1 h1 {
   font-weight: bold;
   color: #03A688;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .container-nosotros-1 h1 {
@@ -41,6 +41,11 @@ body {
   width: 20%;
 }
 
+@media only screen and (max-width: 350px) {
+  .container-nosotros-1 h1, .container-dulces-1 h1 {
+    font-size: 40px;
+  }
+}
 .card-body ul {
   line-height: 30px;
 }
@@ -50,6 +55,11 @@ body {
   font-size: 18px;
 }
 
+@media only screen and (max-width: 576gipx) {
+  .g-5 {
+    --bs-gutter-x: 0rem !important;
+  }
+}
 footer {
   height: 10%;
   background-color: rgb(228, 228, 228) !important;
