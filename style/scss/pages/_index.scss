@@ -1,3 +1,13 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+contenido-index {
+  flex: 1;
+}
+
 // GRID INDEX
 
 #grid-container-index {
@@ -126,16 +136,16 @@
 @media (max-width: 480px) {
 
   #grid-container-index {
-      margin: 55px 50px;
-      margin-top: 0px !important;
+    margin: 55px 50px;
+    margin-top: 0px !important;
   }
 
   .titulo-inicio h1 {
-      font-size: 28px;
+    font-size: 28px;
   }
 
   .titulo-inicio p {
-      font-size: 14px;
+    font-size: 14px;
   }
 
 }
