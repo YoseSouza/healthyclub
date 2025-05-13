@@ -470,6 +470,13 @@ contenido-index {
   .dulces-2 img {
     width: 20%;
   }
+  .container-dulces-1 {
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+  .container-dulces-1 p {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 370px) {
   .container-dulces-1 {
