@@ -175,6 +175,16 @@ footer .container-footer img {
   border-color: black;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+contenido-index {
+  flex: 1;
+}
+
 #grid-container-index {
   display: grid;
   grid-template-areas: "titulo banner";
@@ -277,6 +287,11 @@ footer .container-footer img {
   }
   .titulo-inicio p {
     font-size: 14px;
+  }
+}
+@media (max-width: 370px) {
+  #grid-container-index {
+    margin: 55px 10px;
   }
 }
 #grid-container-nosotros {
