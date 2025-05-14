@@ -401,7 +401,7 @@ body {
 }
 @media only screen and (max-width: 480px) {
   .container-nosotros-1 {
-    margin: 6px 50px 40px 50px;
+    margin: 40px 50px 40px 50px;
   }
   .container-nosotros-1 p {
     width: 100%;
