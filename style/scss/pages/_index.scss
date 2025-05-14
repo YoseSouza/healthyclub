@@ -1,4 +1,4 @@
-.body {
+body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -105,21 +105,12 @@
     grid-template-areas: "titulo" "banner";
     grid-template-columns: 1fr 1fr;
     gap: 40px;
-    margin: 110px 100px;
+    margin: 60px 100px;
   }
 
   .titulo-inicio {
     margin-top: 100px;
     width: 100%;
-  }
-
-  .titulo-inicio h1 {
-    font-size: 36px;
-  }
-
-  .titulo-inicio p {
-    font-size: 16px;
-    padding: 0 15px;
   }
 
   #grid-container-index {
