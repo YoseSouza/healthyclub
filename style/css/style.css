@@ -272,14 +272,14 @@ body {
 }
 @media (max-width: 480px) {
   #grid-container-index {
-    margin: 55px 50px;
+    margin: 40px 30px;
     margin-top: 0px !important;
   }
   .titulo-inicio h1 {
-    font-size: 28px;
+    font-size: 40px;
   }
   .titulo-inicio p {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 @media (max-width: 370px) {
@@ -389,6 +389,7 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    gap: 50px;
   }
   .frases-100 div h2 {
     font-size: 6vw;
@@ -404,6 +405,13 @@ body {
   }
   .container-nosotros-1 p {
     width: 100%;
+  }
+  .frases-100 div h2 {
+    font-size: 8vw;
+    font-weight: bold;
+  }
+  .frases-100 div h4 {
+    font-size: 7vw;
   }
 }
 @media only screen and (max-width: 370px) {
