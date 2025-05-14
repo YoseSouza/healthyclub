@@ -257,7 +257,7 @@ body {
     grid-template-areas: "titulo" "banner";
     grid-template-columns: 1fr;
     gap: 40px;
-    margin: 60px 100px;
+    margin: 20px 100px;
   }
   .titulo-inicio {
     margin-top: 100px;
@@ -270,10 +270,10 @@ body {
     margin-top: 20px;
   }
 }
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   #grid-container-index {
     margin: 40px 30px;
-    margin-top: 0px !important;
+    margin-top: 0px;
   }
   .titulo-inicio h1 {
     font-size: 40px;
@@ -282,9 +282,12 @@ body {
     font-size: 16px;
   }
 }
-@media (max-width: 370px) {
-  #grid-container-index {
-    margin: 55px 10px;
+@media only screen and (max-width: 340px) {
+  .titulo-inicio h1 {
+    font-size: 35px !important;
+  }
+  .titulo-inicio p {
+    font-size: 15px !important;
   }
 }
 #grid-container-nosotros {
@@ -423,6 +426,9 @@ body {
 @media only screen and (max-width: 370px) {
   .container-nosotros-1 {
     margin: 40px 40px 40px 40px;
+  }
+  .frases-100 {
+    gap: 30px;
   }
 }
 #grid-container-dulces {
