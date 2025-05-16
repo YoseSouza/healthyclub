@@ -14,6 +14,8 @@ En Healthy Club encontrarás recetas organizadas por tipo, con ingredientes acce
 - Flexbox
 - Grid
 - JavaScript
+- Sass
+- Animaciones
 
 ## 🌐 Sitio en vivo
 https://yosesouza.github.io/healthyclub/
