@@ -59,6 +59,11 @@ body {
   padding: 0px 20px 10px 20px !important;
 }
 
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
 @media only screen and (max-width: 576px) {
   .g-5 {
     --bs-gutter-x: 0rem !important;
@@ -335,7 +340,7 @@ body {
   text-align: center;
   margin: 50px 10% 0 10%;
 }
-.container-nosotros-3 h3 {
+.container-nosotros-3 h2 {
   color: #949494;
   font-weight: 700;
   font-size: 20px;
@@ -359,7 +364,7 @@ body {
   font-size: 3vw;
   font-weight: bold;
 }
-.frases-100 div h4 {
+.frases-100 div h3 {
   font-size: 2vw;
 }
 
@@ -398,7 +403,7 @@ body {
     font-size: 6vw;
     font-weight: bold;
   }
-  .frases-100 div h4 {
+  .frases-100 div h3 {
     font-size: 6vw;
   }
 }
@@ -419,7 +424,7 @@ body {
     font-size: 8vw;
     font-weight: bold;
   }
-  .frases-100 div h4 {
+  .frases-100 div h3 {
     font-size: 7vw;
   }
 }
@@ -467,11 +472,14 @@ body {
   text-align: center;
   background-color: rgb(224, 224, 224);
   padding: 50px;
-  margin: 20px 0 80px;
+  margin: 20px 0 50px;
 }
 .dulces-2 img {
   width: 5%;
   margin-bottom: 20px;
+}
+.dulces-2 h2 {
+  font-size: 22px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -529,6 +537,10 @@ body {
 .contacto-img img {
   max-width: 100%;
   border-radius: 20px;
+}
+
+.mb-3 h2 {
+  font-size: 26px;
 }
 
 /* PAGINA 5 - CONTACTO  */
